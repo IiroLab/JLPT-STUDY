@@ -1,5 +1,5 @@
-const CACHE_NAME = 'japanese-training-v1';
-const ASSETS = ['./', './japanese-study-workbench.html', './manifest.webmanifest', './icon.svg'];
+const CACHE_NAME = 'japanese-training-v2';
+const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)));
@@ -17,5 +17,5 @@ self.addEventListener('fetch', event => {
     const copy = response.clone();
     if (new URL(event.request.url).origin === self.location.origin) caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
     return response;
-  }).catch(() => caches.match('./japanese-study-workbench.html'))));
+  }).catch(() => caches.match('./index.html'))));
 });
