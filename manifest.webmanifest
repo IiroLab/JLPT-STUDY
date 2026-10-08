@@ -1,0 +1,13 @@
+{
+  "name": "日语训练",
+  "short_name": "日语训练",
+  "description": "JLPT N1/N2 与 JPT 原创题型训练，支持错题与掌握度追踪。",
+  "start_url": "./japanese-study-workbench.html",
+  "display": "standalone",
+  "background_color": "#f7f8fb",
+  "theme_color": "#263758",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

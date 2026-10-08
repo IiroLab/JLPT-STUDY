@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#263758"/>
+  <circle cx="390" cy="118" r="54" fill="#e87055"/>
+  <path d="M126 142h208v42H126zm0 76h260v42H126zm0 76h168v42H126z" fill="#f7f8fb"/>
+  <text x="126" y="414" fill="#f7f8fb" font-family="Arial, sans-serif" font-size="78" font-weight="700">日</text>
+</svg>
